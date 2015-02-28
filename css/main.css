@@ -248,7 +248,7 @@ body > section {
   background-color: #f39c12;
 }
 .emerald {
-  background-color: #2ecc71;
+  background-color: #4F9CA9;
 }
 .nephritis {
   background-color: #27ae60;
@@ -261,6 +261,10 @@ body > section {
 }
 .peter-river {
   background-color: #3498db;
+}
+.blackstone {
+background-color: 797979;
+}
 }
 .belize-hole {
   background-color: #2980b9;
@@ -435,6 +439,37 @@ body > section {
   position: relative;
   margin: 0;
 }
+
+#black-background {
+
+  background-color: #797979;
+}
+#bottom .blackstone{
+  background-color: #797979;
+}
+.container-sitemap {
+  width:950px;
+  float:left;
+
+}
+
+.container-address {
+  width:375px;
+  float:right;
+  margin-top:-160px;
+  padding-left:-290px;
+font-size: 14pt;
+background-color: #fff;
+
+}
+
+
+.container-bottom {
+  background-color: #797979;
+
+}
+
+
 .portfolio-items,
 .portfolio-filter {
   list-style: none;
@@ -880,7 +915,7 @@ ul.tag-cloud li {
   display: inline-block;
 }
 #bottom {
-  color: #bdc3c7;
+  color: blue;
 }
 #bottom h4 {
   margin-top: 0;
