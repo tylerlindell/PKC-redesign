@@ -749,14 +749,19 @@ ul.tag-cloud li {
 }
 .navbar-inverse .navbar-brand {
   font-family: 'Bubbler One', sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 50px;
   color: #fff;
 }
 .navbar-inverse .navbar-nav {
+  position:relative;
   margin-top: 20px;
 }
 
+.navbar-box{
+  margin-top:-80px;
+  margin-bottom:-20px;
+}
 
 
 .navbar-inverse .navbar-nav > li > a {
