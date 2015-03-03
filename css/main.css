@@ -1125,6 +1125,15 @@ ul.faq li > div h3 {
 
 
 .ministries-quote {
-  margin-left:210px;
-  margin-right:210px;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.divfix{
+  position: fixed;
+  width: 600px;
+  height: 200px;
+  left: 10%;
+  top: 60%;
+  margin-left: -300px; /*half the width*/
 }
