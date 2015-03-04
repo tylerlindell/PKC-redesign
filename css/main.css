@@ -443,6 +443,8 @@ background-color: 797979;
 
 #black-background {
   background-color: #666666;
+  padding-top:10px;
+  padding-bottom:0px;
 }
 
 
@@ -453,6 +455,7 @@ background-color: 797979;
 .container-sitemap {
   font-size:12px;
   text-align:center;
+  padding-left:70px;
 }
 
 #gray{
@@ -461,7 +464,6 @@ background-color: 797979;
 
 .container-address {
   width:30%;
-  float:right;
   font-size: 10pt;
   color:#D0D0D0;
   text-align:center;
