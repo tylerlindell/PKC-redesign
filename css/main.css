@@ -454,6 +454,10 @@ background-color: 797979;
   background-color: #666666;
 }
 
+.container-leaders {
+  width:70%;
+}
+
 .container-sitemap {
   font-size:12px;
   text-align:center;
