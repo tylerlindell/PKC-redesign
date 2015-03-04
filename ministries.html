@@ -20,6 +20,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
 
 <div class="navbar-box">
     <header class="navbar navbar-inverse wet-asphalt" role="banner">
@@ -63,17 +66,15 @@
         </div>
     </section><!--/#title-->     
 
-    <section id="services">
-        <div class="container center">
+    <section class="wet-asphalt">
+        <div class="container container-ministry center">
 
-
-            <p>Choose a ministry</p>
+            <p>Please choose one of our ministries below to find out more information<br><br></p>
             <div class="row">
                 <div class="col-sm-3">
                     <div class="media">
-                        <a href="#roots">
+                        <a id="color-black" href="#roots">
                             <div>
-
                                 <img src="images/ministries/rootslogo.jpg" width="100px" height="100px"/>
                             </div>
                             <div class="media-body">
@@ -85,7 +86,7 @@
                 </div><!--/.col-md-4-->
                 <div class="col-sm-3">
                     <div class="media">
-                        <a href="#encounter">
+                        <a href="#encounter" id="color-black">
                             <div>
                                 <img src="images/ministries/encounterlogo.jpg" width="100px"/>
                             </div>
@@ -98,7 +99,7 @@
                 </div><!--/.col-md-4-->
                 <div class="col-sm-3">
                     <div class="media">
-                        <a href="#overflow">
+                        <a href="#overflow" id="color-black">
                             <div>
                                 <img src="images/ministries/overflowlogo.jpg" width="100px" height="100px"/>
                             </div>
@@ -112,7 +113,7 @@
                 </div><!--/.col-md-4-->
                 <div class="col-sm-3">
                     <div class="media">
-                        <a href="#adult">
+                        <a href="#adult" id="color-black">
                             <div>
                                 <img src="images/ministries/adultlogo.jpg" width="100px" height="100px"/>
                             </div>
@@ -126,7 +127,7 @@
                 </div><!--/.col-md-4-->
             </div>
         </div>
-    </section><!--/#services-->
+    </section><!--ministry-->
 
 <section id="blog" class="container">
             <div class="row center">
@@ -157,7 +158,7 @@
                         <div class="blog-content">
                             <div class="row center">
                                 <div class="col">
-                                    <a href="blog-item.html"><h3>ROOTS</h3></a>
+                                    <a href="blog-item.html" id="color-black"><h3>ROOTS</h3></a>
                                 </div>
                             </div>
                             <h5 class="ministries-quote">"There shall come forth a shoot from the stump of Jesse, <br>and a branch from his roots shall bear fruit."<br> Isaiah 11:1</h5>
@@ -173,7 +174,7 @@
                         <div class="blog-content">
                             <div class="row center">
                                 <div class="col">
-                                    <a href="blog-item.html"><h3>ENCOUNTER</h3></a>
+                                    <a href="blog-item.html" id="color-black"><h3>ENCOUNTER</h3></a>
                                 </div>
                             </div>
                             <h5 class="ministries-quote">"For I am not ashamed of the gospel, for it is the power of God<br> for salvation to everyone who believes,<br> to the Jew first and also to the Greek."<br>Roman 1:16</h5>
@@ -187,7 +188,7 @@
                         <div class="blog-content">
                             <div class="row center">
                                 <div class="col">
-                                    <a href="blog-item.html"><h3>OVERFLOW</h3></a>
+                                    <a href="blog-item.html" id="color-black"><h3>OVERFLOW</h3></a>
                                 </div>
                             </div>
                             <h5 class="ministries-quote">"'For I know the plans that I have for you,' declares the LORD, <br> 'plans for welfare and not for calamity to give you <br>a future and a hope."<br> Jeremiah 29:11</h5>
@@ -201,7 +202,7 @@
                         <div class="blog-content">
                             <div class="row center">
                                 <div class="col">
-                                    <a href="blog-item.html"><h3>ADULT</h3></a>
+                                    <a href="blog-item.html" id="color-black"><h3>ADULT</h3></a>
                                 </div>
                             </div>
                             <h5 class="ministries-quote">"For You are my hope; O Lord GOD,<br> You are my confidence from my youth." <br>Psalm 71:5 </h5>
@@ -292,10 +293,6 @@
     <script src="jquery.min.js"></script>
     <script src="jssor.slider.mini.js"></script>
     <script>
-        jQuery(document).ready(function ($) {
-            var options = { $AutoPlay: true };
-            var jssor_slider1 = new $JssorSlider$('slider1_container', options);
-        });
     </script>
 </body>
 </html>

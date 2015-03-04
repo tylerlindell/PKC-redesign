@@ -213,7 +213,7 @@ body > section {
 .midnight-blue h6,
 .concrete h6,
 .asbestos h6 {
-  color: #fff;
+
 }
 .turquoise small,
 .green-sea small,
@@ -296,7 +296,6 @@ background-color: 797979;
 }
 
 .wet-asphalt a:not(.btn):hover {
-  color: #bdc3c7;
 }
 
 .midnight-blue {
@@ -460,6 +459,15 @@ background-color: 797979;
 
 .container-directory {
   width:70%;
+}
+
+.container-ministry{
+  width:60%;
+  color:black;
+}
+
+#color-black{
+  color:black;
 }
 
 .container-sitemap {
