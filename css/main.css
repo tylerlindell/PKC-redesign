@@ -246,7 +246,7 @@ body > section {
   background-color: #f1c40f;
 }
 .orange {
-  background-color: #f39c12;
+  background-color: #E7E2C2;
 }
 .emerald {
   background-color: #8BBDC6;
@@ -455,6 +455,10 @@ background-color: 797979;
 }
 
 .container-leaders {
+  width:70%;
+}
+
+.container-directory {
   width:70%;
 }
 
