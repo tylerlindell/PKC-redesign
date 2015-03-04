@@ -71,12 +71,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Media</h1>
+                    <h1>Give</h1>
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active">Media</li>
+                        <li class="active">Give</li>
                     </ul>
                 </div>
             </div>
@@ -137,10 +137,10 @@
         </fieldset><!--end .donate-step1-->
         
         <button class="donate-submit btn">
-            <a href="#" onclick="toggle_visibility('donate-step-2');">Next Step</a>
+            <a href="#donate-step-2" onclick="toggle_visibility('donate-step-2');">Next Step</a>
         </button>
         
-        <fieldset class="donate-step" id="donate-step-2" style="display:none;">
+        <fieldset class="donate-step" name="donate-step-2" id="donate-step-2" style="display:none;">
 
         <h4 class="donate-step-legend"><span class="form-step">2</span> Enter your information:</h4>
             <div class="g g-2up">
@@ -169,12 +169,13 @@
                     <input type="text" id="donate-state" placeholder="PA" autocomplete="off" name="billing.address.state" required />
                 </div>
             </div><!--end .g-2up-->
+        <button class="donate-submit btn">
+            <a href="#donate-step-3" onclick="toggle_visibility('donate-step-3');">Next Step</a>
+        </button>
         </fieldset><!--end .donate-step-->
         
-        <button class="donate-submit btn">
-            <a href="#" onclick="toggle_visibility('donate-step-3');">Next Step</a>
-        </button>
-        <fieldset class="donate-step" id="donate-step-3" style="display:none;">
+        
+        <fieldset class="donate-step" name="donate-step-3" id="donate-step-3" style="display:none;">
             <h4 class="donate-step-legend"><span class="form-step">3</span> Enter your billing info:</h4>
             
             <div class="radio-container" id="payment-type-radio">
@@ -208,10 +209,13 @@
                     </div>
                 </div><!--end .g-2up-->
             </div><!--end .payment-container-bank-->
-        </fieldset><!--end .donate-step-->
         <button class="donate-submit btn">
+            <a href="donate.html">
             <span class="donate-submit-text">Donate</span>
+            </a>
         </button>
+        </fieldset><!--end .donate-step-->
+        
     </form><!--end .donate-form-->              
 </div>          
 </div>
