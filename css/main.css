@@ -294,9 +294,11 @@ background-color: 797979;
 .wet-asphalt a:not(.btn) {
   color: #bdc3c7;
 }
+
 .wet-asphalt a:not(.btn):hover {
-  color: #d9534f;
+  color: #bdc3c7;
 }
+
 .midnight-blue {
   background-color: #fff;
 }
@@ -749,6 +751,7 @@ ul.tag-cloud li {
 }
 .navbar-inverse {
   border: none;
+
 }
 .navbar-inverse .navbar-brand {
   font-family: 'Bubbler One', sans-serif;
