@@ -43,12 +43,13 @@ h6 {
   font-weight: 400;
 }
 a {
-  color: #34495e;
+  color: white;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
   transition: 300ms;
 }
+
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
@@ -248,7 +249,7 @@ body > section {
   background-color: #f39c12;
 }
 .emerald {
-  background-color: #4F9CA9;
+  background-color: #8BBDC6;
 }
 .nephritis {
   background-color: #27ae60;
@@ -441,34 +442,34 @@ background-color: 797979;
 }
 
 #black-background {
-
-  background-color: #797979;
+  background-color: #666666;
 }
+
+
 #bottom .blackstone{
-  background-color: #797979;
+  background-color: #666666;
 }
-.container-sitemap {
-  width:950px;
-  float:left;
 
+.container-sitemap {
+  font-size:12px;
+  text-align:center;
+}
+
+#gray{
+  color:#D0D0D0;
 }
 
 .container-address {
-  width:375px;
+  width:30%;
   float:right;
-  margin-top:-160px;
-  padding-left:-290px;
-font-size: 14pt;
-background-color: #fff;
-
+  font-size: 10pt;
+  color:#D0D0D0;
+  text-align:center;
 }
-
 
 .container-bottom {
   background-color: #797979;
-
 }
-
 
 .portfolio-items,
 .portfolio-filter {
@@ -938,8 +939,8 @@ ul.tag-cloud li {
 }
 ul.unstyled {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  line-height:20px;
+  margin-left: -40px;
 }
 /*Unordered Lists*/
 ul.arrow,
@@ -996,7 +997,7 @@ ul.rss li::before {
 #footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #bdc3c7;
+  color: white;
 }
 #footer a {
   color: #bdc3c7;
@@ -1008,10 +1009,12 @@ ul.rss li::before {
   list-style: none;
   padding: 0;
   margin: 0;
+  color:white;
 }
 #footer ul > li {
   display: inline-block;
   margin-left: 15px;
+  color:white;
 }
 ul.social {
   list-style: none;
