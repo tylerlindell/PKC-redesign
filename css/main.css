@@ -476,21 +476,21 @@ background-color: 797979;
 .portfolio-items,
 .portfolio-filter {
   list-style: none;
-  padding: 0;
+  padding-left:10%;
   margin: 0 -20px 20px 0;
 }
 .portfolio-filter > li {
   display: inline-block;
 }
 .portfolio-items > li {
-  float: left;
+  float: center;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .portfolio-items.col-2 > li {
-  width: 50%;
+  width: 40%;
 }
 .portfolio-items.col-3 > li {
   width: 33%;
