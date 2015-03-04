@@ -74,28 +74,96 @@
         </div>
     </section><!--/#title-->     
 
-    <section id="registration" class="container">
-        <form class="center" role="form">
-            <fieldset class="registration-form">
-                <div class="form-group">
-                    <input type="text" id="username" name="username" placeholder="Username" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="text" id="email" name="email" placeholder="E-mail" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="password" id="password" name="password" placeholder="Password" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="password" id="password_confirm" name="password_confirm" placeholder="Password (Confirm)" class="form-control">
-                </div>
-                <div class="form-group">
-                    <button class="btn btn-success btn-md btn-block">Register</button>
-                </div>
-            </fieldset>
-        </form>
-    </section><!--/#registration-->
+<section>
+    <div class="container center">
 
+<div class="lc lc-single">
+                <div class="donate donate-page">
+    <form method="post" action="https://secure2.convio.net/gpcfb/site/CRDonationAPI" class="donate-form luminateApi donation-form" id="donate-form">
+        <input type="hidden" name="method" value="donate" />
+        <input type="hidden" name="form_id" value="4080" />
+        <input type="hidden" name="validate" value="true" />
+        <input type="hidden" name="df_preview" value="true" />
+        <input type="hidden" name="billing.name.first" id="billing-first-name" value="" />
+        <input type="hidden" name="billing.name.last" id="billing-last-name" value="" />
+
+            <h4>Donate to PKC</h4>
+            <ul class="unstyled">
+                <li>
+                    <input type="radio" id="donate-amount-1" name="donate-amount" />
+                    <label for="donate-amount-1" data-amount="25" data-message="$25 can feed a family for a day">$25</label>
+                </li>
+                <li>
+                    <input type="radio" id="donate-amount-2" name="donate-amount" checked="checked" />
+                    <label for="donate-amount-2" data-amount="50" data-message="$50 can feed a family for a week">$50</label>
+                </li>
+                <li>
+                    <input type="radio" id="donate-amount-3" name="donate-amount" />
+                    <label for="donate-amount-3" data-amount="100" data-message="$100 can feed a family of 4 for a week">$100</label>
+                </li>
+                <li>
+                    <input type="radio" id="donate-amount-4" name="donate-amount" />
+                    <label for="donate-amount-4" data-amount="250" data-message="$250 can feed a family of 4 for two weeks">$250</label>
+                </li>
+                <li>
+                    <input type="radio" id="donate-amount-5" name="donate-amount" />
+                    <label for="donate-amount-5" data-amount="500" data-message="$500 can feed a family of 4 for four weeks">$500</label>
+                </li>
+                <li>
+                    <div class="input-container" data-message="Every dollar you donate helps end hunger.">
+                        <span class="input-addon">$</span><input type="text" id="other-amount" placeholder="Other"  />
+                    </div>
+                </li>
+            </ul>
+            <p>Please fill out the form below if you would like to donate to Palomar Korean Church</p>
+            <div class="panel-group" id="accordion1">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                      Next Step
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                      Next Step
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+                      Next Step
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                  </div>
+                </div>
+              </div>
+            </div><!--/#accordion1-->
+          </div><!--/.col-sm-4-->
+      </div><!-- row-->
+  </div><!-- container-->
+</section>
 <!-- start footer -->
 <section id="black-background">
     <div class="row" id="black-background">
