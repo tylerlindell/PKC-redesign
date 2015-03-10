@@ -2,6 +2,36 @@
 .clearfix {
   *zoom: 1;
 }
+
+#OpenSansCondensed {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container-cross {
+    overflow:hidden;
+
+}
+
+#exclusion{
+  position: absolute;
+
+  shape-inside: circle;
+  shape-outside: auto;  
+  shape-image-threshold: <alphavalue>;
+  background:red;
+  border-radius:20%;
+  wrap-flow: both;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
 .clearfix:before,
 .clearfix:after {
   display: table;
