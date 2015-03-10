@@ -23,6 +23,23 @@
 </head>
 
 <body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
 
 <div class="navbar-box">
     <header class="navbar navbar-inverse wet-asphalt" role="banner">
@@ -147,7 +164,7 @@
                             <img class="center-block" src="images/ministries/rootsdisplay.jpg" width="100%" alt=""/>
                             <br><p class="ministries_description"> Palomar Korean Church's Children's Ministry, also known as Roots Ministry, caters to our beautiful children in our church. This ministry is a healthy, safe environment for kids to come and learn more about God's unconditional love and grace. There are annual festivals and summer Vacation Bible Study to engage the kids in learning more about our beloved Father.
                             </p>
-                            <a class="btn btn-default" href="#top">Back to top<i class="icon-angle-up"></i></a>
+                            <a class="btn btn-default" href="#top">Back to top</a>
                         </div>
                     </div>
                     <!--/.blog-item-->
@@ -267,14 +284,11 @@
 
 
 <!-- end footer  -->
-
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
     <script src="jquery.min.js"></script>
     <script src="jssor.slider.mini.js"></script>
-    <script>
-    </script>
 </body>
 </html>
