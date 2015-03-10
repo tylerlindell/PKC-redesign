@@ -45,6 +45,14 @@ header,footer,nav,section,article,hgroup,figure{
 	border:0;
 	clip:rect(1px, 1px, 1px, 1px)
 }
+
+a:hover {
+	background-color: #FFFFFF;
+}
+
+
+
+
 .right{
 	float:right;padding:0 0 1em 1em
 }
