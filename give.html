@@ -77,9 +77,16 @@
     
 <section class="section">
     <div class="lc lc-single">
+        <div class="col-sm-6" style="z-index: 10;position: absolute;left: -60%;top: 1px;">
+            <img src="/images/u114.png" alt="giving-image" title="give now!" class="img-rounded" />
+            
+            <h3>Giving from you heart</h3>
+            
+            <p>Tithing Is More Than Giving. The word "tithe" literally means tenth or 10%. Tithing, or giving ten percent of your income, isn't merely giving something to God. It's giving back what was his to begin with. All that we have, or hope to have, comes from him. The Bible says that tithing is a reminder that God is the supplier of everything. It teaches us to always put God first in our lives.</p>
+        </div>
         <div class="donate donate-page">
         
-        <form method="post" action="https://secure2.convio.net/gpcfb/site/CRDonationAPI" class="donate-form luminateApi donation-form" id="donate-form">
+        <form method="post" action="/thank-you.html" class="donate-form luminateApi donation-form" id="donate-form">
         <input type="hidden" name="method" value="donate" />
         <input type="hidden" name="form_id" value="4080" />
         <input type="hidden" name="validate" value="true" />
@@ -136,7 +143,7 @@
             <div class="g g-2up">
                 <div class="field-container gi">
                     <label for="donate-name">Full Name</label>
-                    <input type="text" id="donate-name" placeholder="Firstname Lastname" autocomplete="off" required pattern="\ " data-parsley-pattern="\ " data-parsley-error-message="Please enter your first and last name" />
+                    <input type="text" id="donate-name" placeholder="Firstname Lastname" autocomplete="off" required data-parsley-pattern="\ " data-parsley-error-message="Please enter your first and last name" />
                 </div>
                 <div class="field-container gi">
                     <label for="donate-email">E-mail</label>
@@ -167,11 +174,6 @@
         
         <fieldset class="donate-step" name="donate-step-3" id="donate-step-3" style="display:none;">
             <h4 class="donate-step-legend"><span class="form-step">3</span> Enter your billing info:</h4>
-            
-            <div class="radio-container" id="payment-type-radio">
-                <label><input type="radio" name="payment_type" checked="checked" data-payment-type="payment-type-cc" /> Credit Card</label>
-                <label><input type="radio" name="payment_type"  data-payment-type="payment-type-bank" /> Bank Account</label>
-            </div>
             
             <div class="payment-type active" id="payment-type-cc">
                 <h4>Credit Card Info</h4>
